@@ -1,3 +1,13 @@
-# hello-world
-Just a thing, that must be done.
-I don't know what i must write about myself. Just one thing. I'm tryed to find myself.
+//# hello-world on C#
+using System;
+using Microsoft.VisualBasic;
+using System.Windows.Forms;
+
+class Hello
+{
+    static void Main ()
+    {
+        MessageBox.Show("Hello, world!!!", "first words", MessageBoxButtons.OK, MessageBoxIcon.Information
+            );
+    }
+}
